@@ -1,0 +1,39 @@
+.base-card {
+  &--post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 100%;
+  }
+
+  &--user {
+  }
+  .cart-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 79%;
+    &__text {
+      margin-bottom: 30px;
+      p {
+        font-size: 15px;
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    width: 116px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #81142a;
+    color: #fff;
+  }
+}

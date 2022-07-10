@@ -1,0 +1,22 @@
+@import './components/';
+@import './libs/normalize';
+@import '_variables.scss';
+
+:root {
+  height: 100%;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  max-width: 1900px;
+}
+
+.main-container {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

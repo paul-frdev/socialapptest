@@ -1,0 +1,22 @@
+.user-profile {
+  padding: 30px;
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }
+  &__btn {
+    display: inline-block;
+    display: flex;
+    width: 116px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #81142a;
+    color: #fff;
+  }
+}

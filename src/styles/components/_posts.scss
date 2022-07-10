@@ -1,0 +1,47 @@
+.posts {
+  margin-top: 30px;
+
+  .posts-btns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    button {
+      background-color: #c90c31;
+      color: #fff;
+      border: none;
+      &:hover {
+        border: none;
+        background-color: #e8395b;
+      }
+    }
+
+    &__pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 190px;
+      width: 100%;
+      span {
+        font-size: 24px;
+        font-weight: 600;
+      }
+      button {
+        background-color: #1d7923;
+        color: #fff;
+        border: none;
+        &:hover {
+          border: none;
+          background-color: #2b9c33;
+        }
+      }
+    }
+
+    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+      border: none;
+      color: #070707;
+      background-color: #cecece;
+    }
+  }
+}

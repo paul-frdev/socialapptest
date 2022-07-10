@@ -1,0 +1,36 @@
+.form-dialog {
+  div > div {
+    max-width: 510px;
+    width: 100%;
+  }
+  &__content {
+  }
+
+  &--title {
+    margin-bottom: 10px !important;
+  }
+  .textarea {
+    width: 100%;
+    min-height: 70px;
+    padding: 10px;
+  }
+  &--btns {
+    padding: 0 25px 30px 25px !important;
+    button {
+      background-color: #c90c31;
+      color: #fff;
+      border: none;
+      &:hover {
+        border: none;
+        background-color: #e8395b;
+      }
+      &:last-child {
+        border: none;
+        background-color: #505656;
+        &:hover {
+          background-color: #828989;
+        }
+      }
+    }
+  }
+}
